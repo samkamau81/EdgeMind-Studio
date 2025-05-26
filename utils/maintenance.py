@@ -1,3 +1,4 @@
+"""
 import sqlite3
 
 def get_logs(device_id):
@@ -11,3 +12,4 @@ def get_logs(device_id):
 def update_model(device_id, model_path):
     # Logic for OTA update (similar to deploy_to_device)
     pass
+"""

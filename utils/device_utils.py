@@ -1,3 +1,4 @@
+"""
 import paramiko
 
 def deploy_to_device(device_ip, model_path):
@@ -8,3 +9,4 @@ def deploy_to_device(device_ip, model_path):
     sftp.put(model_path, "/path/on/device/model.tflite")
     sftp.close()
     ssh.close()
+"""

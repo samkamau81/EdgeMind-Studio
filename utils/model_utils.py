@@ -1,3 +1,4 @@
+"""
 import tensorflow as tf
 
 def optimize_model(model_path):
@@ -10,3 +11,5 @@ def optimize_model(model_path):
         f.write(tflite_model)
     
     return optimized_path
+
+"""
