@@ -39,7 +39,7 @@ st.markdown("A smart IDE for building AI agents on embedded devices with support
 
 # Sidebar: Project Configuration
 with st.sidebar:
-    st.image("https://github.com/samkamau81/EmbedMind-Studio/blob/main/embedmind_logo.jpg")
+    st.image("embedmind_logo.jpg")
 st.sidebar.header("🔧 Project Settings")
 project_name = st.sidebar.text_input("Project Name", "Fire Safety Agent")
 device_type = st.sidebar.selectbox("WiFi Module", ["ESP8266", "Raspberry Pi"])
