@@ -1,0 +1,4 @@
+"","Us","PlatformIO","Edge Impulse"
+"LLM Integration","✅ Native","❌","❌"
+"Real Testing","✅ HIL","✅","❌ Sim Only"
+"Code Gen","✅ AI","❌","✅ ML"
